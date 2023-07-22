@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(37, 37, 37);
+            color: white;
+
+        }
+        .header{
+            text-align: center;
+            margin: 10px;
+        }
+        .lesserbody{
+            text-align: center;
+            margin: 10px;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            gap: 5px;
+            background-color: black;
+            padding: 5px;
+        }
+        .grid-item{
+            background-color: rgb(47, 31, 31);
+            padding: 200px 100px;
+            text-align: center;
+            background-size: cover;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            background-image: url(image1.jpeg);
+        }
+        .item2{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-image: url(image2.jpeg);
+        }
+        .item3{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-image: url(image3.jpeg);
+        }
+        .item5{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+        .item6{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            background-image: url(image4.jpeg);
+        }
+        .item4{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .item7{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 5;
+            grid-row-end: 6;
+            background-image: url(image5.jpeg);
+        }
+        .item8{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 5;
+            grid-row-end: 6;
+            background-image: url(image6.jpeg);
+        }
+        .item9{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 5;
+            grid-row-end: 6;
+            background-image: url(image7.jpeg);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="header"><h1>This is Grid Lesson</h1></div>
+    <div class="lesserbody"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, mollitia voluptas commodi ex illum earum harum? Reiciendis deserunt blanditiis, consectetur illum ut, quaerat ad dolore earum eveniet ducimus asperiores in.</p></div>
+    <div class="grid-container">
+        <div class="grid-item item1"></div>
+        <div class="grid-item item2"></div>
+        <div class="grid-item item3"></div>
+        <div class="grid-item item4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque reprehenderit temporibus porro odio. Laboriosam, dolorem enim hic exercitationem, ipsum similique ipsa temporibus itaque, voluptatem doloribus deserunt repudiandae illo facilis eligendi.</div>
+        <div class="grid-item item5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id dignissimos fugiat nemo debitis cupiditate ipsam enim, esse asperiores nam voluptas vitae, dolorem laudantium voluptatibus veritatis distinctio. Debitis, minima? Aut, facere.</div>
+        <div class="grid-item item6"></div>
+        <div class="grid-item item7"></div>
+        <div class="grid-item item8"></div>
+        <div class="grid-item item9"></div>
+    </div>
+    <div class="footer"></div>
+    
+</body>
+</html>
